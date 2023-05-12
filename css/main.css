@@ -499,29 +499,56 @@ section .box:hover img{
 }
 
 /*----- start styling the why us section-----*/
-.solution-item{
-    overflow: hidden;
-    display: flex;
-    align-items: center;
+.why-us .container .row .text{
+    margin: 30px 0px;
+}
+.why-us .container .row .text h5{
+    color: var(--main-color);
+    font-size: 20px;
+    margin: 24px 0px;
+    position: relative;
+}
+.why-us .container .row .text h5::before {
+    
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 3px;
+    background-color: var(--main-color);
+    right: -42px;
+    top: 16px;
+   
    
 }
-.solution-item img{
-    float: inline-start;
+.why-us .container .row .para {
+  display: flex;
+  align-items: center;
 }
-.solution-item h5{
-    font-size: 20px;
-    float: right;
-  
-}
-.solution-item p{
+.why-us .container .row .para p{
     font-size: 14px;
     line-height: 30px;
-    
 }
-.solution-item .text{
-    flex-grow: 1;
+.why-us .container .row .para h5{
+    margin-top: 35px;
 }
-  
+.why-us .container .row .para .img img{
+    width: 40px;
+    height: 40px;
+ 
+}
+.why-us .container .row .para .img{
+ 
+    width: 74px;
+    padding: 12px;
+   border-radius: 8px;
+    background-color:aliceblue;
+    margin-left: 32px;
+}
+.why-us .container .row .image-container img{
+    margin-right: 148px;
+    width: 986px;
+    height: 423px;
+}
 /*----- end styling the  why us section-----*/
 
 
